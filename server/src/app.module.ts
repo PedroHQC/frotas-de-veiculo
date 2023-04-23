@@ -7,6 +7,7 @@ import { AbastecimentoModule } from './classes/abastecimento/abastecimento.modul
 import { ViagemModule } from './classes/viagem/viagem.module';
 import { ManutencaoModule } from './classes/manutencao/manutencao.module';
 import {TypeOrmModule} from '@nestjs/typeorm';
+
 @Module({
   imports: [TypeOrmModule.forRoot({
     type: 'mysql',
