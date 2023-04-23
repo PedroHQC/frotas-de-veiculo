@@ -7,10 +7,5 @@ import { AbastecimentoController } from './abastecimento.controller';
   providers: [AbastecimentoService]
 })
 export class AbastecimentoModule {
-  constructor(public teste:number){
-    
-
-  }
-
-
+  constructor(public teste: number) {}
 }
